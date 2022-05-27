@@ -5,8 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.min.css">
+  <link rel="shortcut icon" href="./img/icons/map.png" type="image/x-icon">
+  <title>Construtora</title>
 </head>
 
 <body>
@@ -15,10 +16,9 @@
       <div class="container">
         <h2>LOGO</h2>
         <nav>
-          <a href="/">HOME</a>
-          <a href="/">SOBRE</a>
-          <a href="/">SERVIÇOS</a>
-          <a href="/">CONTATO</a>
+          <a href=".">HOME</a>
+          <a href="#sobre">SOBRE</a>
+          <a href="#contato">CONTATO</a>
         </nav>
       </div>
     </header>
@@ -35,7 +35,7 @@
     </div>
   </section>
 
-  <article class="sobre-nos">
+  <article class="sobre-nos" id="sobre">
     <div class="sobre-nos-texto ">
       <h2>SOBRE NÓS</h2>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus numquam consequatur sequi magni iusto vitae quo dolore sint corrupti, iste recusandae! Consequatur doloribus ex assumenda?</p>
@@ -46,6 +46,24 @@
       <img src="./img/guindache.png" alt="">
     </div>
   </article>
+
+  <section id="contato" class="onde-nos-encontrar" aria-label='Onde Nos encontrar'>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d831438.4632941928!2d139.20938643458882!3d35.50906267569761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2zVMOzcXVpbywgSmFww6Nv!5e0!3m2!1spt-BR!2sbr!4v1653655134461!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+    <div class="onde-encontrar-texto">
+      <h2>Onde Nos encontrar ?</h2>
+      <ul>
+        <li class="local-firma">Rua Fulano de Tal, 920 BL 01 LT09</li>
+        <li class="tel-firma">(88) 3834-0443</li>
+        <li class="email-firma">contato@firma.com</li>
+      </ul>
+    </div>
+
+  </section>
+  <footer style="padding:40px 20px;color:white;background-color:black;text-align:center;">
+    <p>Copyright - 2022 Empresa Braba <br> CNPJ: 86.862.510/0001-93</p>
+  </footer>
 </body>
 
 </html>
